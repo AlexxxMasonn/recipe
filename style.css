@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ruslan+Display&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ruslan+Display&family=Young+Serif&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+.recipe-image { 
+    width: 95%; 
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 0px; /* Padding for the image */
+    border-radius: 15px;
+}
+
+h1, h3, h4 { 
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px 0px 10px 0px;
+}
+
+p { 
+    font-family: "Poppins", sans-serif; 
+    font-weight: 300; 
+    font-size: 10px; 
+    padding: 0px;
+    margin: 0px; 
+}
+      
+h2, h3, h4 { 
+    font-style: normal;
+    color: hsl(14, 45%, 36%); 
+    padding: 10px 0px 10px 0px;
+}
+
+body { 
+    background-color: hsla(308, 83%, 37%, 0.192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta { 
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 10px 10px 10px 30px; /* Padding for the card */
+    margin: 10px;
+    width: 38rem;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+
+
+}
+
+.recipe-info { 
+    display: grid; 
+    justify-content: left; 
+    align-items: center; 
+    margin-bottom: 20px;
+    font-size: 10px;
+    border: solid 1px hsl(330, 100%, 98%); /* Border around the recipe info */
+    background-color: hsl(330, 100%, 98%);
+    width: 90%;
+    font-family: "Outfit", sans-serif;
+}
+
+p { 
+    font-size: 12px;
+    margin: 0;
+    padding: 0px 0px 20px 0px; /* Padding for text inside recipe info */
+
+}
+
+.preparation { 
+    display: flex; 
+    font-size: 10px;
+    border: solid 1px hsl(330, 100%, 98%); /* Border around the preparation section */
+    color: black;
+    font-family: "Outfit", sans-serif;
+    padding: 0px 0px 0px 0px; /* Padding for text inside preparation section */
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
+
+ul, ol {
+    list-style: initial; /* Ensure list markers are visible */
+    margin: 0;
+    padding: 0px 20px 0px 20px; /* Add padding for indentation */
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+li {
+    margin-bottom: 10px; /* Add spacing between list items */
+    color: hsl(14, 45%, 36%); 
+
+}
+
+.nutrition {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns: one for labels, one for values */
+    gap: 0px; /* Space between squares */
+    padding: 20px;
+}
+
+.nutrition-item {
+    display: flex;
+    align-items: right;
+    border-radius: 0px; /* Rounded corners for items */
+    font-size: 14px; /* Adjust font size */
+    font-weight: 300;
+    padding: 10px;
+    text-align: right;
+    border-bottom: solid 1px hsl(228, 45%, 44%); /* Bottom border for separation */
+    font-family: "Poppins", sans-serif; 
+}
+
+.nutrition-item2 {
+    display: flex;
+    align-items: center;
+    border-radius: 0px; /* Rounded corners for items */
+    font-size: 14px; /* Adjust font size */
+    font-weight: 600;
+    text-align: right;
+    border-bottom: solid 1px hsl(228, 45%, 44%); /* Bottom border for separation */
+    color: hsl(14, 45%, 36%); /* Text color for items */
+    font-family: "Poppins", sans-serif; 
+}
+
+.text {
+    font-size: 12px; /* Adjust font size */
+    color: black;
+    font-family: "Poppins", sans-serif; 
+    margin: 0;
+    padding: 0px 0px 0px 10px; /* Padding for text inside recipe info */
+}
